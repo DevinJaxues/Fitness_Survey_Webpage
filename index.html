@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+      <header>
+          <h1 id="title">Your Health Survey Form</h1>
+      <p id="description">Where are you at in your health journey?</p>
+      </header>
+      <div class="container">
+         <form id="survey-form">
+
+            <div class="form-box">
+            <legend>Name</legend>
+               <label id="name-label"><input class="form-control" id="name" type="text" name="name" placeholder="Enter your name" required></label>
+            </div>
+            <div class="form-box">
+
+            <legend>Email</legend>
+               <label id="email-label"><input class="form-control" id="email" type="email" name="email"  placeholder="Enter your Email" required></label>
+            </div>
+
+            <div class="form-box">
+            <legend>Age</legend>
+               <label id="number-label"><input class="form-control" id="number" type="number" name="number" s placeholder="Enter your age" min="16" max="99" required></label>
+            </div>
+
+            <div calss="form-box">
+            <label for="body-type">How would you describe your current health?</label>
+            <select name="body-type" id="dropdown" class="form-control" required>
+            <option value="Fit">Fit</option>
+            <option value="Skinny">Skinny</option>
+            <option value="Overweight">Overweight</option>
+            <option value="Athletic">Athletic</option>
+            </select>
+            </div>
+
+            <div class="form-box">
+            <p>If you had to focus on one current goal, what would be your main goal?</p>
+            <label>
+               <input
+                  name="health-goal"
+                  value="lose-wight"
+                  type="radio"
+                  class="input-radio"
+                  checked
+               />Lose Weight
+            </label>
+            <br>
+            <label>
+               <input
+                  name="health-goal"
+                  value="gain-muscle"
+                  type="radio"
+                  class="input-radio"
+               />Gain Muscle
+            </label>
+            <br>
+            <label>
+               <input
+                  name="health-goal"
+                  value="more-energy"
+                  type="radio"
+                  class="input-radio"
+               />More Energy
+            </label>
+            <br>
+            <label>
+               <input
+                  name="health-goal"
+                  value="confidence"
+                  type="radio"
+                  class="input-radio"
+               />Confidence
+            </label>
+            </div>
+
+            <div class="form-group">
+            <p>
+               What obsticles are making your goals harder to achieve?
+               <span class="note">(Check all that apply)</span>
+            </p>
+            <br>
+            <label>
+               <input
+                  name="obsticles"
+                  value="money"
+                  type="checkbox"
+                  class="input-checkbox"
+               />Money
+            </label>
+            <br>
+            <label>
+               <input
+               name="obsticles"
+               value="time"
+               type="checkbox"
+               class="input-checkbox"
+               />Time
+            </label>
+            <br>
+            <label>
+               <input
+               name="obsticles"
+               value="motivation"
+               type="checkbox"
+               class="input-checkbox"
+               />Motivation
+            </label>
+            <br>
+            <label>
+               <input
+               name="obsticles"
+               value="insecurities"
+               type="checkbox"
+               class="input-checkbox"
+               />Insecurities
+            </label>
+            <br>
+            <label>
+               <input
+               name="obsticles"
+               value="lack-of-knowledge"
+               type="checkbox"
+               class="input-checkbox"
+               />Lack of Knowledge
+            </label>
+            <br>
+            <label>
+               <input
+               name="obsticles"
+               value="fun"
+               type="checkbox"
+               class="input-checkbox"
+               />Not Fun
+            </label>
+
+            <div class="form-group">
+               <p>Tell us about your specific health journey of where you want to be and where you are!</p>
+               <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea> 
+            </div>
+
+            <div class="form-group">
+               <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+
+         </form>
+      </div>
+   </body>
+</html>
