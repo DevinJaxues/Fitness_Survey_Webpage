@@ -2,7 +2,7 @@
 ## Devin Monsen
 ### 08/31/2022
 ---
-
+![webpage_snap](https://github.com/DevinJaxues/Survey_Form/blob/db530717bf5f61d4e0501df96d4bf1e3162a73a0/images/rmd_img.JPG)
 ---
 ## Overview ##
 ---
