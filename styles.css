@@ -69,9 +69,10 @@ form{
 
 .input-textarea {
     min-height: 120px;
-    width: 100%;
-    padding: 0.625rem;
+    width: 80%;
+    padding: 0.925rem;
     resize: vertical;
+    border-color: rgb(166, 225, 243);
 }
 
 .submit-button {
@@ -84,6 +85,7 @@ form{
     font-weight: 600;
     font-size: larger;
     background: white;
+    border-color: rgb(166, 225, 243);
     color: inherit;
     border-radius: .75rem;
     cursor: pointer;
