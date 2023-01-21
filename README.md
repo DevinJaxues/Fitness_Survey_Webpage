@@ -6,7 +6,7 @@
 ---
 ## Overview ##
 ---
-This project is part of the freeCodeCamp certification process. Just a simple HTML survey with different variations of input elements. Finished of with some CSS styling to personalize the project.
+This project is part of the freeCodeCamp certification process. Just a simple HTML survey with different variations of input elements. Added some of my own CSS styling to personalize the project and present skills.
 ---
 Sources:
 ---
